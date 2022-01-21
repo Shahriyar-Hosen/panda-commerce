@@ -1,0 +1,22 @@
+.panda-main-bg{
+    background-color: #fceae8;
+}
+.catagori-bg-c1{
+    background-color: #ffa500;
+}
+.catagori-bg-c2{
+    background-color: #da70d6;
+}
+.catagori-bg-c3{
+    background-color: #0000ff;
+}
+.panda-btn{
+    background-image:  linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.catagori-img{
+    width: 100px;
+}
