@@ -7,5 +7,9 @@ document.getElementById('backpack').style.backgroundColor = 'tomato'
 
 const cardBorder = document.getElementsByClassName('card ');
 for (const card of cardBorder) {
-    card.style.borderRadius = '32px';
+    card.style.borderRadius = '30px';
 }
+
+document.getElementById('buy-now-btn').addEventListener('click',function () {
+    console.log("buy-now-btn")
+})
