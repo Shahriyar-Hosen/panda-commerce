@@ -4,3 +4,8 @@ for (const hheading2 of h2Color) {
 }
 
 document.getElementById('backpack').style.backgroundColor = 'tomato' 
+
+const cardBorder = document.getElementsByClassName('card ');
+for (const card of cardBorder) {
+    card.style.borderRadius = '32px';
+}
