@@ -13,3 +13,7 @@ for (const card of cardBorder) {
 document.getElementById('buy-now-btn').addEventListener('click',function () {
     console.log("buy-now-btn")
 })
+
+document.getElementById('remove-btn').addEventListener('click', function (e) {
+    e.target.parentNode.removeChild(e.target);
+})
