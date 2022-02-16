@@ -15,5 +15,18 @@ document.getElementById('buy-now-btn').addEventListener('click',function () {
 })
 
 document.getElementById('remove-btn').addEventListener('click', function (e) {
-    e.target.parentNode.removeChild(e.target);
+    if (e.target.innerText == 'Buy Now') {
+        e.target.parentNode.removeChild(e.target);
+    }
+})
+
+document.getElementById('submit-input').addEventListener('keyup', function (e) {
+    const submitBtn = document.getElementById('submit-btn');
+
+    if (e.target.value == "email") {
+        submitBtn.removeAttribute('disabled')
+    }
+    else {
+        submitBtn.setAttribute('disabled', true)
+    }
 })
