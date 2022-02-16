@@ -3,3 +3,4 @@ for (const hheading2 of h2Color) {
     hheading2.style.color = 'lightblue';
 }
 
+document.getElementById('backpack').style.backgroundColor = 'tomato' 
